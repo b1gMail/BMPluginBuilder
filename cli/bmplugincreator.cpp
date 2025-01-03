@@ -19,12 +19,10 @@
  */
 
 #include "bmplugincreator.h"
-
 #include <zlib.h>
-
 #include <sstream>
-
 #include "md5.h"
+#include <cstring>
 
 const char _szBMPluginMagic[] = "B1GPLUGIN100!";
 
